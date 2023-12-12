@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: #c7f9cc;
+}
+
+th{
+    text-align: left;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #57cc99;
+}
+
+td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+tr:hover{
+    background-color: #63ceba;
+}

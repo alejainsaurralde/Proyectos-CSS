@@ -1,0 +1,33 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #da627d;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 50vh;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid #450920;
+}
+
+h4{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+.plano{
+    background-color: #ffa5ab;
+}
+
+.gradiente{
+    background: linear-gradient(to right, #ffa5ab, #f9dbbd);
+}
+
+.imagen{
+    background-image: url(/Proyecto-CSS-2/assets/img/fondo.webp);
+}

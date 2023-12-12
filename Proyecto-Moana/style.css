@@ -1,0 +1,93 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #9fffcb, #25a18e);
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+.active {
+    background-color: #38a3a5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004e64;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #00a5cf;
+}
+
+h1 {
+    color: #c7f9cc;
+    font-size: 50px;
+}
+
+
+h2 {
+    color: #00a5cf;
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: #00a5cf;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.moana-1{
+   display: block;
+   margin: 0 auto;
+}
+
+
+.imagen {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 25%;
+    height: auto;
+}
+
+.imagen2 {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 25%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #7ae582;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

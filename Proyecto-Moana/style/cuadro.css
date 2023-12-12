@@ -1,0 +1,34 @@
+.arbol{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.generacion{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.persona{
+    background-color: #f694c1;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline grid;
+    border-radius: 10px;
+}
+
+div.persona:hover{
+    background-color: #907ad6;
+}
+
+footer {
+    background-color: #7ae582;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
